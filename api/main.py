@@ -44,6 +44,7 @@ async def get_tv_shows():
         items = list(container.query_items(query=query, enable_cross_partition_query=True))
         return items
     except Exception as e:
+        print(f"{e}")
         raise HTTPException(status_code=500, detail="Error accessing Cosmos DB")
 
 @app.get("/api/seasons")

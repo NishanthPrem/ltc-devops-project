@@ -1,0 +1,154 @@
+{
+  "movies_data": [
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "1" },
+          "type": { "S": "movie" },
+          "title": { "S": "Inception" },
+          "releaseYear": { "N": "2010" },
+          "genre": { "L": [{ "S": "Sci-Fi" }, { "S": "Action" }] },
+          "duration": { "N": "148" },
+          "rating": { "N": "8.8" },
+          "actors": { "L": [{ "S": "Leonardo DiCaprio" }, { "S": "Joseph Gordon-Levitt" }] },
+          "director": { "S": "Christopher Nolan" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "2" },
+          "type": { "S": "movie" },
+          "title": { "S": "The Matrix" },
+          "releaseYear": { "N": "1999" },
+          "genre": { "L": [{ "S": "Sci-Fi" }, { "S": "Action" }] },
+          "duration": { "N": "136" },
+          "rating": { "N": "8.7" },
+          "actors": { "L": [{ "S": "Keanu Reeves" }, { "S": "Laurence Fishburne" }] },
+          "director": { "S": "Lana Wachowski, Lilly Wachowski" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "3" },
+          "type": { "S": "movie" },
+          "title": { "S": "The Dark Knight" },
+          "releaseYear": { "N": "2008" },
+          "genre": { "L": [{ "S": "Action" }, { "S": "Crime" }, { "S": "Drama" }] },
+          "duration": { "N": "152" },
+          "rating": { "N": "9.0" },
+          "actors": { "L": [{ "S": "Christian Bale" }, { "S": "Heath Ledger" }] },
+          "director": { "S": "Christopher Nolan" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "4" },
+          "type": { "S": "movie" },
+          "title": { "S": "Interstellar" },
+          "releaseYear": { "N": "2014" },
+          "genre": { "L": [{ "S": "Sci-Fi" }, { "S": "Drama" }] },
+          "duration": { "N": "169" },
+          "rating": { "N": "8.6" },
+          "actors": { "L": [{ "S": "Matthew McConaughey" }, { "S": "Anne Hathaway" }] },
+          "director": { "S": "Christopher Nolan" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "5" },
+          "type": { "S": "movie" },
+          "title": { "S": "The Avengers" },
+          "releaseYear": { "N": "2012" },
+          "genre": { "L": [{ "S": "Action" }, { "S": "Adventure" }] },
+          "duration": { "N": "143" },
+          "rating": { "N": "8.0" },
+          "actors": { "L": [{ "S": "Robert Downey Jr." }, { "S": "Chris Hemsworth" }] },
+          "director": { "S": "Joss Whedon" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "6" },
+          "type": { "S": "movie" },
+          "title": { "S": "Avatar" },
+          "releaseYear": { "N": "2009" },
+          "genre": { "L": [{ "S": "Sci-Fi" }, { "S": "Adventure" }] },
+          "duration": { "N": "162" },
+          "rating": { "N": "7.8" },
+          "actors": { "L": [{ "S": "Sam Worthington" }, { "S": "Zoe Saldana" }] },
+          "director": { "S": "James Cameron" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "7" },
+          "type": { "S": "movie" },
+          "title": { "S": "Gladiator" },
+          "releaseYear": { "N": "2000" },
+          "genre": { "L": [{ "S": "Action" }, { "S": "Drama" }] },
+          "duration": { "N": "155" },
+          "rating": { "N": "8.5" },
+          "actors": { "L": [{ "S": "Russell Crowe" }, { "S": "Joaquin Phoenix" }] },
+          "director": { "S": "Ridley Scott" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "8" },
+          "type": { "S": "movie" },
+          "title": { "S": "Pulp Fiction" },
+          "releaseYear": { "N": "1994" },
+          "genre": { "L": [{ "S": "Crime" }, { "S": "Drama" }] },
+          "duration": { "N": "154" },
+          "rating": { "N": "8.9" },
+          "actors": { "L": [{ "S": "John Travolta" }, { "S": "Uma Thurman" }] },
+          "director": { "S": "Quentin Tarantino" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "9" },
+          "type": { "S": "movie" },
+          "title": { "S": "Forrest Gump" },
+          "releaseYear": { "N": "1994" },
+          "genre": { "L": [{ "S": "Drama" }, { "S": "Romance" }] },
+          "duration": { "N": "142" },
+          "rating": { "N": "8.8" },
+          "actors": { "L": [{ "S": "Tom Hanks" }, { "S": "Robin Wright" }] },
+          "director": { "S": "Robert Zemeckis" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": { "S": "10" },
+          "type": { "S": "movie" },
+          "title": { "S": "The Shawshank Redemption" },
+          "releaseYear": { "N": "1994" },
+          "genre": { "L": [{ "S": "Drama" }] },
+          "duration": { "N": "142" },
+          "rating": { "N": "9.3" },
+          "actors": { "L": [{ "S": "Tim Robbins" }, { "S": "Morgan Freeman" }] },
+          "director": { "S": "Frank Darabont" }
+        }
+      }
+    }
+  ]
+}
